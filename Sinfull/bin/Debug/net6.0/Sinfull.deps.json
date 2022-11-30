@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sinfull/1.0.0": {
+        "dependencies": {
+          "Discord.Anarchy": "0.8.3.2"
+        },
+        "runtime": {
+          "Sinfull.dll": {}
+        }
+      },
+      "Discord.Anarchy/0.8.3.2": {
+        "dependencies": {
+          "Microsoft.Maui.Graphics": "6.0.403",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Anarchy.dll": {
+            "assemblyVersion": "0.8.3.2",
+            "fileVersion": "0.8.3.2"
+          }
+        }
+      },
+      "Microsoft.Maui.Graphics/6.0.403": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.400.3"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "Sinfull/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Discord.Anarchy/0.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P5Qyi5XPjSCv3VyOXoSRPdBWKKr+lt0FCCT25baX0I9D+9tS6SlwRZ+GdBEjlHB2FNIsy9UZDr13zT22hc1Cng==",
+      "path": "discord.anarchy/0.8.3.2",
+      "hashPath": "discord.anarchy.0.8.3.2.nupkg.sha512"
+    },
+    "Microsoft.Maui.Graphics/6.0.403": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U3geHZANTsD8biN1cYOe9E1dU+UuV5mo0hURmLHCXRCTHddZSL0IJYnIF02dLCdCp2mXRGY4elGi789fgRaAlg==",
+      "path": "microsoft.maui.graphics/6.0.403",
+      "hashPath": "microsoft.maui.graphics.6.0.403.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    }
+  }
+}
