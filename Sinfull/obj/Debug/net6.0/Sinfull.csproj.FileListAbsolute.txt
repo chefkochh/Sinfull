@@ -17,3 +17,22 @@ H:\Meine Ablage\Simon\Laptop\Sinfull\Sinfull\obj\Debug\net6.0\refint\Sinfull.dll
 H:\Meine Ablage\Simon\Laptop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.pdb
 H:\Meine Ablage\Simon\Laptop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.genruntimeconfig.cache
 H:\Meine Ablage\Simon\Laptop\Sinfull\Sinfull\obj\Debug\net6.0\ref\Sinfull.dll
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Sinfull.exe
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Sinfull.deps.json
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Sinfull.runtimeconfig.json
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Sinfull.dll
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Sinfull.pdb
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Anarchy.dll
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Microsoft.Maui.Graphics.dll
+C:\Users\simon\Desktop\Sinfull\Sinfull\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.csproj.AssemblyReference.cache
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.AssemblyInfoInputs.cache
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.AssemblyInfo.cs
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.csproj.CopyComplete
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.dll
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\refint\Sinfull.dll
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.pdb
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\Sinfull.genruntimeconfig.cache
+C:\Users\simon\Desktop\Sinfull\Sinfull\obj\Debug\net6.0\ref\Sinfull.dll

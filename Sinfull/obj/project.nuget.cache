@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w/kGSCz8Z2sxdnk30VLQ1GALizmVzNy+qhm20RSGnN/rpzrJlvM9fFKZQ5cGHkd1ad+pVSd682RAp7g6gcDu2w==",
+  "dgSpecHash": "DzjlUXsl3z/yNpmA3URYLSKjn3TWD488FNgQjPxgt4DLJBPsRmRo5zuISDZ1qzmB9eCuVuSlFjfypDiaNYGULg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simon\\Desktop\\Projects\\Sinfull\\Sinfull\\Sinfull.csproj",
+  "projectFilePath": "C:\\Users\\simon\\Desktop\\Sinfull\\Sinfull\\Sinfull.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\discord.anarchy\\0.8.3.2\\discord.anarchy.0.8.3.2.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.maui.graphics\\6.0.403\\microsoft.maui.graphics.6.0.403.nupkg.sha512",
