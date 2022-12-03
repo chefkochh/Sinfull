@@ -3,6 +3,7 @@ using System.Threading;
 using Discord;
 using Discord.Commands;
 using Discord.Gateway;
+using Newtonsoft.Json.Linq;
 using Sinfull.Functions;
 
 namespace Sinfull
@@ -18,16 +19,19 @@ namespace Sinfull
             client.OnMessageReceived += Client_OnMessageReceived;
 
             logo.logoo();
-
-            if (!File.Exists("token.sf"))
+            if (!Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Sinfull"))
             {
-                File.Create("token.sf").Close();
-                Console.WriteLine(":: Created 'tokem.sf'");
+                Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Sinfull");
+            }
+            if (!File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Sinfull\\token.sf"))
+            {
+                File.Create(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Sinfull\\token.sf").Close();
+                Console.WriteLine(":: Created 'token.sf'");
                 Console.Write(":: token $ ");
-                File.WriteAllText("token.sf", Console.ReadLine());
+                File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Sinfull\\token.sf", Console.ReadLine());
             }
 
-            Data.token = File.ReadAllText("token.sf");
+            Data.token = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Sinfull\\token.sf");
             client.Login(Data.token);
             Thread.Sleep(-1);
         }
