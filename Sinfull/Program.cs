@@ -18,19 +18,17 @@ namespace Sinfull
             client.OnMessageReceived += Client_OnMessageReceived;
 
             logo.logoo();
-            string token = Data.token;
+
             if (!File.Exists("token.sf"))
             {
+                File.Create("token.sf").Close();
+                Console.WriteLine(":: Created 'tokem.sf'");
                 Console.Write(":: token $ ");
-                File.Create("token.sf");
-                File.WriteAllText("token.sf", token);
+                File.WriteAllText("token.sf", Console.ReadLine());
             }
-            else
-            {
-                token = File.ReadAllText("token.sf");
-            }
-            
-            client.Login("Nzg4NDU5NTA5NTg4MDMzNTM3.GNESHt.bno2iTgzkvqVv-HUZXAfIxxmQ7IcrOKPuuMciM");
+
+            Data.token = File.ReadAllText("token.sf");
+            client.Login(Data.token);
             Thread.Sleep(-1);
         }
 

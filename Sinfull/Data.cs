@@ -8,7 +8,7 @@ namespace Sinfull
 {
     internal class Data
     {
-        public static string token = "Nzg4NDU5NTA5NTg4MDMzNTM3.GNESHt.bno2iTgzkvqVv-HUZXAfIxxmQ7IcrOKPuuMciM";
+        public static string token = string.Empty;
 
         public static string prefix = ">";
 
